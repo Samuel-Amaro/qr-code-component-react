@@ -1,9 +1,9 @@
 import image from "../images/image-qr-code.png";
 
-export function QrCode() {
+export function Header() {
     return (
-      <div className="image">
+      <header className="header">
         <img src={image} alt="QR Code" />
-      </div>
+      </header>
     );
 }

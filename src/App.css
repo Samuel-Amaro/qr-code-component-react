@@ -5,7 +5,7 @@
   padding: 16px 16px 42px 16px;
 }
 
-.image img {
+.header img {
   display: block;
   max-width: 100%;
   border-radius: 12px;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .image img {
+  .header img {
     height: auto;
   }
 }
